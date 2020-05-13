@@ -1,0 +1,176 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Caveat', cursive;
+
+  background: #00416A;  
+  background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+  background: linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+  
+}
+
+.logo
+{
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 60px;
+  margin-left: 2.5%;
+  font-family: 'Caveat', cursive;
+  
+}
+
+.menu-links
+{
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  margin-right: 50px;
+}
+
+.menu-links li 
+{
+  list-style: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 38px;
+  padding: 25px;
+}
+
+.menu-links li:hover
+{
+  background-color: rgb(170, 204, 148);
+}
+
+i 
+{
+  margin-top: .2rem;
+  margin-right: .5rem;
+}
+
+.contact
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 8%;
+}
+
+.mobile-icon
+{
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  font-size: 40px;
+  padding: 25px;
+}
+
+.mobile-icon:hover
+{
+  background-color: rgb(170, 204, 148);
+}
+
+.logo-mobile
+{
+  display: none;
+}
+
+
+@media (max-width: 1195px)
+{
+
+  .menu-links
+  {
+    margin: auto;
+    margin-right: 0px;
+  }
+
+  .mobile-icon
+  {
+    display: flex;
+  }
+
+  .menu-links li
+  {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 800px)
+{
+
+  .menu-links
+  {
+    margin: auto;
+    margin-right: 0px;
+  }
+
+  .mobile-icon
+  {
+    display: flex;
+    margin: auto;
+  }
+
+  .menu-links li
+  {
+    display: none;
+  }
+
+}
+
+@media (max-width: 699px)
+{
+
+  .menu-links
+  {
+    display: flex;
+  }
+
+  i 
+  {
+    font-size: 30px;
+  }
+
+  .logo-mobile
+  {
+    display: flex;
+    font-size: 40px;
+    margin-left: 3%;
+
+  }
+
+  .logo
+  {
+    display: none;
+  }
+
+  .mobile-icon
+  {
+    display: flex;
+    margin: auto;
+  }
+
+  .menu-links li
+  {
+    display: none;
+  }
+
+}
+
+
+
+
+

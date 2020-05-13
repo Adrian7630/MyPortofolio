@@ -1,0 +1,307 @@
+.cover-box
+{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 3.6em;
+    padding-top: 3em;
+    
+    background: #00416A;  
+    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+    background: linear-gradient(to right, #FFE000, #799F0C, #00416A);
+}
+
+.contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    border: 4px solid rgb(40, 41, 39);
+    border-radius: 20px;
+    width: 75%;
+    padding: 20px;
+    margin: 0px auto; 
+    background-color: rgb(248, 246, 231);
+}
+
+.name 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.name h1
+{
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.name img
+{
+    height: 250px;
+    width: 280px;
+    margin-top: 25px;
+    border-radius: 15%;
+    text-align: center;
+
+    -webkit-box-shadow: -16px 20px 40px 22px rgba(217, 245, 166, 0.58);
+    -moz-box-shadow: -16px 20px 40px 22px rgba(217, 245, 166, 0.58);
+    box-shadow: -16px 20px 40px 22px rgba(217, 245, 166, 0.58);
+}
+
+.name p
+{
+    font-size: 35px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+    padding: 50px;
+    color: rgba(150, 135, 150, 150);
+}
+
+
+.number
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 142px;
+}
+
+.number h1
+{
+    font-size: 60px;
+}
+
+.tags 
+{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 10px;
+    flex-direction: column;
+}
+
+.tags p 
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.tags i
+{
+    padding-right: 20px;
+    font-size: 65px;
+}
+
+hr
+{
+    border: 2px dotted black;
+    width: 100%;
+    margin: 10px auto;
+    margin-top: 40px;
+}
+
+@media (max-width: 1340px)
+{
+
+    .name 
+    {
+        margin-bottom: auto;
+    }
+
+    .name img
+    {
+        width: 220px;
+        height: 220px;
+    }
+
+    .name h1
+    {
+        font-size: 50px;
+    }
+
+    .name p 
+    {
+        font-size: 35px;
+    }
+
+    .tags p
+    {
+        font-size: 30px;
+    }
+
+    .tags i
+    {
+        font-size: 30px;
+    }
+
+    .number h1 
+    {
+        font-size: 50px;
+    }
+
+    .number
+    {
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .cover-box
+    {
+        padding-top: 11em;
+    }
+
+    .name img
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    .name h1
+    {
+        font-size: 38px;
+    }
+
+    .name p 
+    {
+        font-size: 20px;
+    }
+
+    .tags p
+    {
+        font-size: 20px;
+    }
+
+    .tags i
+    {
+        font-size: 20px;
+    }
+
+    .number h1 
+    {
+        font-size: 36px;
+    }
+
+    .number
+    {
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 580px)
+{
+    .cover-box
+    {
+        padding-bottom: 8.6em;
+    }
+
+    .name
+    {
+        margin-bottom: auto;
+    }
+
+    .name img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name h1
+    {
+        font-size: 30px;
+    }
+
+    .name p 
+    {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .tags p
+    {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .tags i
+    {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .number h1 
+    {
+        font-size: 30px;
+    }
+
+    .number
+    {
+        margin-bottom: auto;
+        padding-right: 1px;
+    }
+}
+
+
+@media (max-width: 430px)
+{
+    .cover-box
+    {
+        padding-bottom: 8.6em;
+    }
+
+    .name
+    {
+        margin-bottom: auto;
+    }
+
+    .name img
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name h1
+    {
+        font-size: 20px;
+    }
+
+    .name p 
+    {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .tags p
+    {
+        font-size: 11px;
+        padding: 0px;
+    }
+
+    .tags i
+    {
+        padding: 0px;
+        font-size: 11px;
+    }
+
+    .number h1 
+    {
+        font-size: 20px;
+    }
+
+    .number
+    {
+        margin-bottom: auto;
+        padding-right: 1px;
+    }
+}

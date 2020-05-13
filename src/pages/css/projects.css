@@ -1,0 +1,209 @@
+/*          The box for each task                    */
+
+.card-task
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-family: 'Caveat', cursive;
+    background-color: ivory;
+
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+
+    -webkit-box-shadow: 16px 20px 40px 22px rgba(183, 235, 207, 0.58);
+    -moz-box-shadow: 16px 20px 40px 22px rgba(183, 235, 234, 0.58);
+    box-shadow: 16px 20px 40px 22px rgba(183, 235, 234, 0.58);
+}
+
+hr
+{
+    border: 1px dotted black;
+    width: 100%;
+
+}
+
+/*          React Info TAB                    */
+
+.boxreact
+{
+
+    border-radius: 50px 50px 90px 0px; 
+    width: 100%;
+    height: 50%;
+    background-image: url("../img/react.jpg");
+
+}
+
+.boxreact h1
+{
+    position: relative;
+    padding-top: 190px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.info-react
+{
+
+    width: 100%;
+    height: 50%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 31px;
+    color: rgba(100, 135, 150, 110);
+}
+
+.info-react p 
+{
+    padding: 7px;
+}
+
+.info-react a 
+{
+    text-decoration: none;
+    color: rgba(100, 135, 150, 110);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info-react a:hover
+{
+    background-color: rgba(87, 216, 233, 0.58);
+}
+
+/*               Web Info TAB               */
+
+.boxweb
+{
+
+    border-radius: 50px 50px 90px 0px; 
+    width: 100%;
+    height: 50%;
+    background-image: url("../img/web.jpg");
+
+}
+
+.boxweb h1
+{
+    position: relative;
+    padding-top: 190px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.info-web
+{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: rgba(100, 135, 150, 110);
+}
+
+/*          React Info TAB                    */
+
+.info-web p 
+{
+    padding: 10px;
+}
+
+.info-web a 
+{
+    text-decoration: none;
+    color: rgba(100, 135, 150, 110);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info-web a:hover
+{
+    background-color: rgb(236, 230, 143);
+}
+
+/*     Styling the Project page         */
+
+.content
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+
+/*          Dimensions                    */
+
+@media (max-width: 1340px)
+{
+    .content
+    {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (max-width: 900px)
+{
+    .content
+    {
+        grid-template-columns: auto;
+    }
+
+}
+
+@media (max-width: 700px)
+{
+    .card-task
+    {
+        width: 350px;
+        height: 450px;
+    }
+
+    .boxreact h1
+    {
+        font-size: 35px;
+        padding-top: 175px;
+    }
+
+    .info-react
+    {
+        font-size: 25px;
+    }
+
+    .info-react p 
+    {
+        padding: 10px;
+    }
+    
+    .boxweb h1
+    {
+        font-size: 35px;
+        padding-top: 175px;
+    }
+
+    .info-web
+    {
+        font-size: 25px;
+    }
+
+    .info-web p 
+    {
+        padding: 10px;
+    }
+}
